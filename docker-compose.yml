@@ -55,7 +55,7 @@ services:
 
   connect:
     #image: cnfldemos/cp-server-connect-datagen:0.4.0-6.0.1
-    #build below imagine with `docker build . -t confluent_mongo_snowflake:1.0.0`
+    #build below imagine with following command `docker build . -t confluent_mongo_snowflake:1.0.0`
     image: confluent_mongo_snowflake:1.0.0
     hostname: connect
     container_name: connect
