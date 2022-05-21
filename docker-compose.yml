@@ -58,7 +58,11 @@ services:
     #image: cnfldemos/cp-server-connect-datagen:0.4.0-6.0.1
     #image from local build with `docker build . -t confluent_mongo_snowflake:1.0.0`
     #image: confluent_mongo_snowflake:1.0.0
+<<<<<<< HEAD
     image: marcin2x4/confluent_mongo_snowflake:latest
+=======
+    image: marcin2x4/confluent_mongo_snowflake:1.0.0
+>>>>>>> 5dfc2105c115e1d36d8a93ca6d14e8c10846cc40
     hostname: connect
     container_name: connect
     depends_on:
