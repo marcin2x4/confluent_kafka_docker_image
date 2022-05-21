@@ -54,9 +54,11 @@ services:
       SCHEMA_REGISTRY_LISTENERS: http://0.0.0.0:8081
 
   connect:
+    #standard image from Confluent
     #image: cnfldemos/cp-server-connect-datagen:0.4.0-6.0.1
-    #build below imagine with following command `docker build . -t confluent_mongo_snowflake:1.0.0`
-    image: confluent_mongo_snowflake:1.0.0
+    #image from local build with `docker build . -t confluent_mongo_snowflake:1.0.0`
+    #image: confluent_mongo_snowflake:1.0.0
+    image: marcin2x4/confluent_mongo_snowflake:latest
     hostname: connect
     container_name: connect
     depends_on:
