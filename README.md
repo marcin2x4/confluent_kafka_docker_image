@@ -1,6 +1,8 @@
 # confluent_kafka_docker_image
 Confluent Platform docker image with community components featuring source and sink connectors for MongoDB and Snowflake.
 
+Docker Hub: https://hub.docker.com/repository/docker/marcin2x4/confluent_mongo_snowflake
+
 To interact and test this solution:
 1. Run `docker-compose up -d` once in the file directory
 2. Double check `docker-compose ps`
